@@ -28,14 +28,14 @@ const LoginForm = () => {
         <form className="login__form__main-container" onSubmit={handleSubmit}>
           <article className="login__form__input">
             <label htmlFor="email">
-              Email
+              Email <br />
               <input type="email" name="email" placeholder="email" />
             </label>
           </article>
 
           <article className="login__form__input">
             <label htmlFor="name">
-              password
+              password <br />
               <input type="password" name="password" placeholder="password" />
             </label>
           </article>
@@ -44,7 +44,7 @@ const LoginForm = () => {
             <Link to="/sign-up">No account yet? Click here</Link>
           </article>
 
-          <article>
+          <article className="login__form__submit__button-wraper">
             <button className="login__form__submit__button" type="submit">
               Continue
             </button>

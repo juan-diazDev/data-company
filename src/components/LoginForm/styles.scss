@@ -4,5 +4,106 @@
 .home__main-conatiner {
   width: 100%;
   height: 100vh;
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #abcee3;
+  .home__logo-conatiner {
+    height: 25vh;
+    width: 50%;
+    padding: 0;
+    margin: 70px 0 30px 0;
+    figure {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .home__login__main-container {
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    .login__title-wraper {
+      width: 100%;
+      height: min-content;
+      margin: 0;
+      font-size: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login__form__main-container {
+      width: 100%;
+      height: min-content;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .login__form__input {
+        width: 50%;
+        height: 30%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        label {
+          input {
+            height: 30px;
+            width: 300px;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 15px;
+            border: none;
+            &::placeholder {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    .login__form__singup__link {
+      margin: 20px 0;
+      font-size: 80%;
+      font-family: body;
+      a {
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+
+    .login__form__submit__button-wraper {
+      width: 20%;
+      .login__form__submit__button {
+        width: 100%;
+        height: 35px;
+        background-color: $blue;
+        color: $white;
+        font-family: title;
+        border: none;
+        border-radius: 20px;
+        &:hover {
+          cursor: pointer;
+          opacity: .7;
+        }
+      }
+    }
+  }
 }
