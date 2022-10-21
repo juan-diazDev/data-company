@@ -1,0 +1,43 @@
+@import '../../../default_styles/_colors.scss';
+@import '../../../default_styles/_fonts.scss';
+
+.footer__main-container {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .footer__copyright-wraper {
+    width: 37%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      font-family: subtitle;
+      margin: 0;
+      font-size: 50%;
+      @media(min-width: 1000px) {
+        font-size: 100%;
+      }
+    }
+  }
+
+  .footer__my-info-wraper {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      font-family: subtitle;
+      font-size: 60%;
+      &:hover {
+        cursor: pointer;
+        color: $orange;
+      }
+      @media(min-width: 1000px) {
+        font-size: 100%;
+      }
+    }
+  }
+}
