@@ -41,7 +41,7 @@ const LoginForm = () => {
           </article>
 
           <article className="login__form__singup__link">
-            <Link to="/sing-up">No account yet? Click here</Link>
+            <Link to="/sign-up">No account yet? Click here</Link>
           </article>
 
           <article>
