@@ -12,7 +12,7 @@ const Footer = () => (
     </section>
 
     <section className="footer__my-info-wraper">
-      <a href="http://linkedin.com/in/juan-d iazdev" target="_blanck">LinkedIN</a>
+      <a href="http://linkedin.com/in/juan-diazdev" target="_blanck">LinkedIN</a>
       <a href="http://github.com/juan-diazDev" target="_blanck">My Github</a>
     </section>
   </footer>
